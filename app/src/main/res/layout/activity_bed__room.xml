@@ -64,6 +64,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+
             android:background="@drawable/btn"
             android:text="Book" />
 
@@ -83,6 +86,17 @@
             android:textColor="#9C27B0"
             android:textSize="20dp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/book_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+
+            android:background="@drawable/btn"
+            android:layout_weight="0.5"
+            android:text="Book" />
 
     </LinearLayout>
 

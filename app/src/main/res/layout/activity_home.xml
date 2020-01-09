@@ -61,17 +61,6 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/pay_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="Payment"
-            android:textAlignment="center"
-            android:textColor="#9C27B0"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"/>
