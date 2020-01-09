@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adminhome">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="344dp"
+        android:layout_height="452dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="223dp">
+
+        <LinearLayout
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Users"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#9C27B0"
+                android:textSize="35dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/empl_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Employie"
+                android:textAlignment="center"
+                android:textColor="#9C27B0"
+                android:textSize="35dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/stk_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="stock"
+                android:textAlignment="center"
+                android:textColor="#9C27B0"
+                android:textSize="35dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sche_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Schedule"
+                android:textAlignment="center"
+                android:textColor="#9C27B0"
+                android:textSize="35dp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/log_out_txt"
+        android:layout_width="355dp"
+        android:layout_height="49dp"
+
+        android:text="Log Out"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
